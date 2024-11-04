@@ -97,3 +97,16 @@ class _Screen2State extends State<Screen2> {
         ));
   }
 }
+class MyClass extends StatefulWidget {
+  const MyClass({super.key});
+
+  @override
+  State<MyClass> createState() => _MyClassState();
+}
+
+class _MyClassState extends State<MyClass> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
